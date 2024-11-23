@@ -1,0 +1,21 @@
+.transactionHistory {
+  width: 80%; /* Таблиця займає 80% ширини контейнера */
+  max-width: 600px; /* Максимальна ширина таблиці */
+  margin: 40px auto; /* Центруємо таблицю та додаємо відступи зверху і знизу */
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transactionHistory th {
+  background-color: black;
+}
+
+.transactionHistory tr:nth-child(even) {
+  background-color: grey;
+}
